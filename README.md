@@ -15,14 +15,7 @@ This project is a simple RESTful API built with **FastAPI**, using **SQLite** as
 
 ## ⚙️ Installation & Setup
 
-### 1. Clone the project
-
-```bash
-git clone https://github.com/IMLV1/basic-python-backend.git
-cd basic-python-backend
-```
-
-### 2. Create & activate a virtual environment
+### 1. Create & activate a virtual environment
 
 ```bash
 python -m venv .venv
@@ -30,20 +23,20 @@ python -m venv .venv
 source .venv/bin/activate  # macOS/Linux
 ```
 
-### 3. Install dependencies
+### 2. Install dependencies
 
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### 4. Initialize the database
+### 3. Initialize the database
 
 ```bash
 python init_db.py
 ```
 
-### 5. Run the application
+### 4. Run the application
 
 ```bash
 uvicorn app.main:app --reload
