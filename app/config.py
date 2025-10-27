@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()  # โหลดค่าจาก .env
+load_dotenv()
 
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./test.db")
 JWT_SECRET = os.getenv("JWT_SECRET", "secret")
